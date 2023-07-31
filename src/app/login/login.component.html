@@ -1,0 +1,24 @@
+
+<div class="heading">SIGN IN</div>
+<section class="block">
+
+    <form class="login-block" (ngSubmit)="loginUser()">
+        <div class="form-group">
+          <label for="UserName" class="form-label">Username</label>
+            <input type="text" id="userName" class="form-control" placeholder="Enter username"  [(ngModel)] = "model.emailId" name = "emailId"/>
+        </div><br>
+          <div class="form-group">
+            <label for="Password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" required placeholder="Enter password" [(ngModel)] = "model.password" name = "password">
+          </div>
+        <div class="form-group">
+            <button (click)="loginUser()" type="submit"  class="btn btn-primary">sign in</button></div>
+        <div>
+          <a [routerLink]="['/create-employee']">New user? Register</a>
+    </div>
+    <div>
+      <a [routerLink]="['/forgot-password']">Forgot password?</a>
+    </div>
+    </form>
+ 
+</section>

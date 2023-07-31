@@ -1,0 +1,24 @@
+.details{
+    background-color: rgb(114, 114, 114);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border: solid;
+    border-style: dotted;
+    height:100%;
+    width:80%;
+    text-align: center;
+    margin-left:25% ;
+    margin-top: 10%;
+
+}
+h1{
+    margin-left: 38%;
+    margin-right: 30%;
+}
+*{
+    box-sizing:border-box;
+    max-width: 50vw;
+    max-height:80vh;
+}
