@@ -1,0 +1,25 @@
+.register-block{  
+    width:100%;
+    padding : 50px 30px 50px 30px;
+    background:#2dabd4; 
+    border-radius: 10px; width: 100%; height: 40%;
+    position:relative;
+    display: inline-block;
+    vertical-align: middle;
+    height:100%;
+  }
+  .block{
+    /* margin-left:30%; */
+    width: 100%;
+  }
+  .heading{
+text-align: center;
+margin-top: 2%;
+margin-bottom: 2%;
+font-size: larger;
+font-weight: bolder;
+color: #0088cb;
+  }
+  
+ 
+   
